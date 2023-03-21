@@ -6,11 +6,6 @@
 
 function makeNegative(num) {
   // Code?
-  if(num * -1 === -num){
-    return num = (-num)
-  }if(num === 0){
-    return num = '0'
-  }else{
-    return num = 'num'
-  }
+  if(num < 0) return num
+  return -num
 }
