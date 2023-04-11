@@ -2,6 +2,6 @@
 
 function doubleInteger(i) {
   // i will be an integer. Double it and return it.
- const result = i**2
+ const result = i*2
   return result
 }
